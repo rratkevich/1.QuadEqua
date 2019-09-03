@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>QuadEqua</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h2>Исходные данные:</h2>
+	<p>Введите коэффициенты a, b c (a ≠ 0)</p>
+	<form action="">
+		<input type="number" id="a" placeholder="a"> x<sup>2</sup> + 
+		<input type="number" id="b" placeholder="b"> x + 
+		<input type="number" id="c" placeholder="c"> = 0
+		<br><br><input type="button" onclick="QuadEqua();" value="Решить">
+	</form>
+	<div id="answer">
+		<h2>Результат:</h2>
+		<p id="result"></p>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
